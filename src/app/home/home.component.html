@@ -1,0 +1,32 @@
+<header>
+
+</header>
+<div class="headline">
+    <a>Add New Car</a>
+</div>
+    <div class="contanir">
+        <div></div>
+        <div class="registerform">
+                <form [formGroup]="profilecarform">
+                        <mat-form-field class="form" appearance="fill"> 
+                                <mat-label>Brand</mat-label>
+                                <input matInput formControlName="Brand" id="brand-set" placeholder="What is Car Brand?" />
+                        </mat-form-field>
+                        <mat-form-field class="form" appearance="fill">
+                                <mat-label>Model</mat-label>
+                                <input matInput formControlName="Model" placeholder="What is Car Model?" />
+                        </mat-form-field> 
+                        <mat-form-field class="form" appearance="fill">
+                                <mat-label>City</mat-label>
+                                <input matInput formControlName="City" placeholder="What is Your City?" />
+                        </mat-form-field> 
+                        <mat-form-field class="form" appearance="fill">
+                                <mat-label>Type</mat-label>
+                                <input matInput formControlName="Type" placeholder="What is Car Type?" />
+                        </mat-form-field> 
+                        <button class="singupbutton" mat-flat-button color="primary" type="submit" (click)="saveForm()">Add Car</button>              
+
+                </form>
+        </div>
+</div>
+

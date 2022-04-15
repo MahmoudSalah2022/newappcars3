@@ -1,0 +1,21 @@
+
+    .spacer {
+        flex: 1 ;
+      }
+    
+      .toolbar {
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        background-color: #1c91ff;
+        color: rgb(228, 228, 228);
+        font-weight: 200;
+      }
+      .menuheader li {
+          list-style-type: none;
+          display: inline;
+          margin: 0 15px 0 0;
+      }
